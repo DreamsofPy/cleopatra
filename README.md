@@ -19,15 +19,15 @@ Tasks:
     * Make it easy to link to social profiles, i.e. github, stack overflow
         * Examples include bitdeli for analyzing your skill level
         * Badges, maybe like coderwall or stack overflow reputation points?
-* **Dev/Ops:**
-    * Set up files for the app using [flask boilerplate](https://github.com/DreamsofPy/flask-boilerplate)
-    * Find web hosting for staging a version
 * **Back-End:**
     * Set up the models for user registration, login/logout, etc
+    * Decide which libraries are needed to convert MD2PDF
 * **Front-End:**
     * Create a template for the final pdf output
     * Survey forms for each person to fill out
-
+* **Dev/Ops or QA:**
+    * Find web hosting for staging a version
+    * Set up testing strategy
 
 ###This code base uses these python libraries:
 
