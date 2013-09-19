@@ -1,3 +1,5 @@
+![image](http://dreamsofpy.github.io/assets/img/slider/slider3.jpg)
+
 The_Resume_App
 ==============
 
@@ -5,7 +7,7 @@ Make it easy to produce nicely formatted PDF from .md or .rst files
 
 
 **Job Seeker Goal:**
-Writes experiences with software development in simple text format. Use of this app will automattically generate resume in good looking PDF format. Similear to functionalities of [Marked](http://markedapp.com/).
+Writes experiences with software development in simple text format. Use of this app will automattically generate resume in good looking PDF format. Similar to functionalities of [Marked](http://markedapp.com/).
 
 Tasks:
 
