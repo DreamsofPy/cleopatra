@@ -101,5 +101,5 @@ Quick Start
 Learn More
 ---------
 
-[mkd2pdf](https://github.com/jdodds/mkd2pdf)
-[flask boilerplate](https://github.com/DreamsofPy/flask-boilerplate)
+* [mkd2pdf](https://github.com/jdodds/mkd2pdf)
+* [flask boilerplate](https://github.com/DreamsofPy/flask-boilerplate)
