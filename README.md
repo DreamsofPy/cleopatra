@@ -78,12 +78,19 @@ Tasks:
 Quick Start
 ----------
 
-1. Clone the repo
+1. If you are using the vagrant set-up from [here](https://github.com/DreamsofPy/vagrant-setup) you
+should ssh into the vagrant box and go to the '/vagrant' folder. If you are not using vagrant skip to (2).
+    
+         $ cd /vagrant
+         $ git clone git@github.com:DreamsofPy/The_Resume_App.git
+         $ cd The_Resume_App
+
+2. Clone the repo.
 
         $ git clone git@github.com:DreamsofPy/The_Resume_App.git
         $ cd The_Resume_App
 
-2. Initialize and activate a virtualenv:
+3. Initialize and activate a virtualenv:
 
         $ virtualenv --no-site-packages env
         $ source env/bin/activate
