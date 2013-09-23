@@ -16,7 +16,7 @@ if (fs.existsSync(configFile)) {
   config = {
     "client_id": "CLIENT_ID"
   , "client_secret": "CLIENT_SECRET"
-  , "redirect_uri": "http://dillinger.io/"};
+  , "redirect_uri": "#"};
   console.warn('Google Drive config not found at ' + configFile +
       '. Plugin disabled.')
 }
@@ -85,7 +85,7 @@ var GoogleDrive = {
                'Content-Type: application/json; charset=UTF-8\n\n' +
                JSON.stringify({ title: title }) + '\n\n' +
                '--' + boundaryTag + '\n' +
-               'Content-Type: text/x-markdown\n\n' + 
+               'Content-Type: text/x-markdown\n\n' +
                content + '\n\n' +
                '--' + boundaryTag + '--';
 

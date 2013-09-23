@@ -1,15 +1,15 @@
 {
-  "name": "Dillinger",
-  "description": "Dillinger, the last Markdown editor you'll ever need, by your's truly, Joe McCann.",
-  "version": "0.5.7",
+  "name": "Cleopatra",
+  "description": "Quickly build and format your resume",
+  "version": "0.1",
   "author": {
-    "name": "Joe McCann",
-    "email": "joe@subprint.com"
+    "name": "DreamsofPy",
+    "email": ""
   },
   "contributors": [
     {
-      "name": "Joe McCann",
-      "email": "joe@subprint.com"
+      "name": "",
+      "email": ""
     }
   ],
   "scripts": {
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/joemccann/dillinger"
+    "url": "git://github.com/dreamsofpy/cleopatra"
   },
   "engines": {
     "node": "0.8.x"
@@ -52,7 +52,7 @@
   },
   "subdomain": "dill",
   "domains": [
-    "dillinger.io",
-    "www.dillinger.io"
+    "",
+    ""
   ]
 }

@@ -1,7 +1,7 @@
-Dillinger
+Cleopatra
 =========
 
-Dillinger is a cloud-enabled HTML5 Markdown editor.
+Cleopatra is a cloud-enabled HTML5 Markdown editor.
 
   - Type some Markdown text in the left window
   - See the HTML in the right
@@ -10,14 +10,14 @@ Dillinger is a cloud-enabled HTML5 Markdown editor.
 Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site] [1]:
 
 > The overriding design goal for Markdown's
-> formatting syntax is to make it as readable 
+> formatting syntax is to make it as readable
 > as possible. The idea is that a
 > Markdown-formatted document should be
 > publishable as-is, as plain text, without
 > looking like it's been marked up with tags
 > or formatting instructions.
 
-This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.  
+This text you see here is *actually* written in Markdown! To get a feel for Markdown's syntax, type some text into the left window and watch the results in the right.
 
 Version
 ----
@@ -27,7 +27,7 @@ Version
 Tech
 -----------
 
-Dillinger uses a number of open source projects to work properly:
+Cleopatra uses a number of open source projects to work properly:
 
 * [Ace Editor] - awesome web-based text editor
 * [Marked] - a super fast port of Markdown to JavaScript
@@ -35,22 +35,22 @@ Dillinger uses a number of open source projects to work properly:
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework [@tjholowaychuk]
 * [keymaster.js] - awesome keyboard handler lib by [@thomasfuchs]
-* [jQuery] - duh 
+* [jQuery] - duh
+* [dillinger]
+* [wkhtmltopdf]
 
 Installation
 --------------
 
 ```sh
-git clone [git-repo-url] dillinger
-cd dillinger
+git clone [git-repo-url] cleopatra
+cd cleopatra
 npm i -d
 mkdir -p public/files/{md,html,pdf}
 ```
 
 ##### Configure Plugins. Instructions in following README.md files
 
-* plugins/dropbox/README.md
-* plugins/github/README.md
 * plugins/googledrive/README.md
 
 ```sh
@@ -81,7 +81,9 @@ MIT
   [node.js]: http://nodejs.org
   [Twitter Bootstrap]: http://twitter.github.com/bootstrap/
   [keymaster.js]: https://github.com/madrobby/keymaster
-  [jQuery]: http://jquery.com  
+  [jQuery]: http://jquery.com
   [@tjholowaychuk]: http://twitter.com/tjholowaychuk
   [express]: http://expressjs.com
-  
+  [wkhtmltopdf]: https://code.google.com/p/wkhtmltopdf/
+  [dillinger]: https://github.com/joemccann/dillinger
+
