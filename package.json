@@ -52,7 +52,7 @@
   },
   "subdomain": "dill",
   "domains": [
-    "",
-    ""
+    "dillinger.io",
+    "www.dillinger.io"
   ]
 }
